@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DADModelStoreContainer" CdmEntityContainer="DADEntities2">
+    <EntitySetMapping Name="Owners">
+      <EntityTypeMapping TypeName="DADModel.Owner">
+        <MappingFragment StoreEntitySet="Owner">
+          <ScalarProperty Name="OWNERID" ColumnName="OWNERID" />
+          <ScalarProperty Name="SURNAME" ColumnName="SURNAME" />
+          <ScalarProperty Name="FIRSTNAME" ColumnName="FIRSTNAME" />
+          <ScalarProperty Name="PHONE" ColumnName="PHONE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Pets">
+      <EntityTypeMapping TypeName="DADModel.Pet">
+        <MappingFragment StoreEntitySet="Pet">
+          <ScalarProperty Name="PETTYPE" ColumnName="PETTYPE" />
+          <ScalarProperty Name="PETNAME" ColumnName="PETNAME" />
+          <ScalarProperty Name="OWNERID" ColumnName="OWNERID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Procedures">
+      <EntityTypeMapping TypeName="DADModel.Procedure">
+        <MappingFragment StoreEntitySet="Procedure">
+          <ScalarProperty Name="PROCEDUREID" ColumnName="PROCEDUREID" />
+          <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+          <ScalarProperty Name="PRICE" ColumnName="PRICE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Treatments">
+      <EntityTypeMapping TypeName="DADModel.Treatment">
+        <MappingFragment StoreEntitySet="Treatment">
+          <ScalarProperty Name="TREATMENTDATE" ColumnName="TREATMENTDATE" />
+          <ScalarProperty Name="NOTES" ColumnName="NOTES" />
+          <ScalarProperty Name="PRICE" ColumnName="PRICE" />
+          <ScalarProperty Name="PETTYPE" ColumnName="PETTYPE" />
+          <ScalarProperty Name="PETNAME" ColumnName="PETNAME" />
+          <ScalarProperty Name="OWNERID" ColumnName="OWNERID" />
+          <ScalarProperty Name="PROCEDUREID" ColumnName="PROCEDUREID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,5 @@
+C:\Users\102542177\source\repos\Swinny_VET_Service\Database\bin\Debug\Database.dacpac
+C:\Users\102542177\source\repos\Swinny_VET_Service\Database\obj\Debug\Database.dll
+C:\Users\102542177\source\repos\Swinny_VET_Service\Database\obj\Debug\Database.pdb
+C:\Users\102542177\source\repos\Swinny_VET_Service\Database\bin\Debug\Database.dll
+C:\Users\102542177\source\repos\Swinny_VET_Service\Database\bin\Debug\Database.pdb
